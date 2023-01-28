@@ -54,7 +54,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .child{
     position: relative;
@@ -74,7 +74,7 @@ button{
     bottom: 20px;
     color: red;
 }
-#addtodo{
+.fa-pen-to-square{
     position: absolute;
     font-size: x-large;
     right: 40px;
@@ -89,4 +89,14 @@ button{
 li{
     font-size: larger;
     color: green;
+}
+#back{
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(18, 61, 68);
+    color: white;
+    left: 20%;
+    top: 0%;
 }
